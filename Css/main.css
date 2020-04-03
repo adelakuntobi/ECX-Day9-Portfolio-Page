@@ -1,0 +1,107 @@
+body,html{
+  margin: 0;
+  padding: 0;
+}
+main{
+  margin: 5% 10%;
+}
+p{
+  font-family: 'Baloo Da 2', cursive;
+}
+
+/*
+*Navigation Bar
+*/
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  padding: 0;
+
+}
+
+.navbar a{
+  margin: 10px 2.5%;
+  font-size: 17px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+}
+#st{
+  border-bottom: 2px solid;
+}
+
+
+
+/*
+*Landing
+*/
+h1,h2{
+  font-family: 'Righteous', cursive;
+}
+.description{
+  display: flex;
+  width: 100%;
+}
+.names{
+  width: 100%;
+
+}
+.icons img{
+  width: 15px;
+  padding-right: 5px;
+  height: 15px;
+}
+.icons p{
+  display: inline-block;
+  margin: 5px 0;
+}
+.image{
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px 7px #ecda68;
+  object-fit: cover;
+  float: right;
+  width: 35%;
+  height: 35%;
+  margin-top: 10px;
+}
+.social img{
+  width: 25px;
+  margin-top: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+/*
+*About me
+*/
+.myPic{
+  float: left;
+  height: auto;
+  width: 40%;
+  margin-bottom: 120px;
+  margin-top: 50px;
+}
+ 
+.aboutme{
+  padding-top: 70px
+}
+.link2{
+  text-decoration: none;
+  padding: 10px;
+  /* border: 2px solid #f0e289; */
+  background-color: #e0d300;
+  color: white;
+  border-radius: 10px;
+}
+.link2:hover{
+  background-color: #00000099;
+
+}
+
+@media screen and (max-width: 800px){
+  .icons p{
+    font-size: 15px;
+  }
+}
