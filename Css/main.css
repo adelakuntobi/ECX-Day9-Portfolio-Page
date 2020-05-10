@@ -1,6 +1,7 @@
 body,html{
   margin: 0;
   padding: 0;
+  color: #000000e0;
 }
 main{
   margin: 5% 10%;
@@ -33,8 +34,6 @@ p{
   border-bottom: 2px solid;
 }
 
-
-
 /*
 *Landing
 */
@@ -42,7 +41,6 @@ h1,h2{
   font-family: 'Righteous', cursive;
 }
 .description{
-  display: flex;
   width: 100%;
 }
 .names{
@@ -100,8 +98,15 @@ h1,h2{
 
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 550px){
   .icons p{
     font-size: 15px;
+  }
+  .image{
+    width: 96%;
+    margin: 50px auto;
+  }
+  .names{
+    float: none;
   }
 }
