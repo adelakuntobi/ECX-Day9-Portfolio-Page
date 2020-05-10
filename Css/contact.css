@@ -28,7 +28,7 @@ main{
 }
 
 img{
-  width: 5%
+  width: 5.5%
 }
 
 .social{
@@ -90,5 +90,8 @@ h1{
 @media screen and (max-width: 800px ){
   main{
     padding: 2% 0;
+  }
+  img{
+    width: 10%;
   }
 }
